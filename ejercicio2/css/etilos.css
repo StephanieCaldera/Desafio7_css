@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+main {
+    font-family: "Dongle", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+.bloque {
+    font-weight: 400;
+    font-size: 18px;
+    width: 60%;
+    background-color: orange;
+    padding: 10px;
+    margin: 20px 60px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.dos {
+    background-color: palegoldenrod;
+    animation-delay: 4s;
+}
+
+.tres {
+    background-color: pink;
+    animation-delay: 8s;
+}
+
+@keyframes example {
+    0% {
+        left: 600PX; right: 0px;
+    }
+    100% {
+        left: 0px;
+    } 
+}
